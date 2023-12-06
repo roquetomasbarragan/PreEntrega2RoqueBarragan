@@ -101,12 +101,12 @@ footer p{
   
   .sabores-lista li {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
   }
   .sabor-img{
     width: 200px;
-    height: 250px;
+    height: 200px;
   }
  /* FIN SABORES */
 
