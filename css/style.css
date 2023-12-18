@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+
+body{
+   background-color: #FFFFFF;
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li {
+    font-size: 20px;
+    list-style: none;
+}
+header nav ul li a{
+    color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* INDEX */
+.active{
+    background-color: #f6b333;
+    border-radius: 5px;
+    padding: 5px;
+}
+nav a:hover{
+    background-color:#b92c33;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.texto-saludo{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #802428;
+    color: #FFFFFF;
+    padding: 100px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* FIN INDEX */
+
+/* Productos */
+.container{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
+    color: #f6b332;
+}
+.card-title{
+    color: #802428;
+    font-weight: bold;
+}
+.fondo-productos{
+    background-image: url(../img/local.jpg);
+   
+
+}
+/* FIN PRODUCTOS */
+
+/* Sabores */
+.container-sabores{
+    background-color: #feedd7;
+}
+.contenedor-lista {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .imagen-derecha {
+    float: right;
+    margin-left: 10px; 
+  }
+  
+  .sabores-lista {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    font-weight: bold;
+    color: #802428;
+    font-size: 20px;
+  }
+  
+  .sabores-lista li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  .sabor-img{
+    width: 250px;
+    height: 300px;
+  }
+ /* FIN SABORES */
+
+
+/* Delivery */
+.container-delivery{
+    background-color: #f6b332;
+}
+.delivery-titulo{
+    color: #802428;
+}
+.info-delivery{
+    font-weight: bold;
+}
+/* FIN DELIVERY */
+
+/* Contacto */
+.container-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
+    color: #f6b332;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .formulario-heladeria {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .formulario-heladeria label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .formulario-heladeria input,
+  .formulario-heladeria select,
+  .formulario-heladeria textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .formulario-heladeria button {
+    background-color: #802428;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .formulario-heladeria button:hover {
+    background-color: #f6b332;
+  }
+  /* FIN CONTACTO */
+
+
+/* Media Quaries mobile-tablet */
+@media (min-width:768px){
+    header{
+        flex-direction: row;
+    }
+
+    header nav ul{
+        display: flex;
+        column-gap: 10px;
+    }
+
+    /* Sabores */
+    .sabor-img{
+        width: 500px;
+    height: 500px;
+      }
+       /* fin sabores */
+ 
+}
+/* Media Quaries mobile-tablet-desktop*/
+@media (min-width:1200px){
+    
+    /* Sabores */
+    .sabor-img{
+        width: 800px;
+    height: 800px;
+      }
+      /* fin sabores */
+}
+
+
