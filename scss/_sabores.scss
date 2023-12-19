@@ -1,0 +1,39 @@
+/* Sabores */
+
+.container-sabores {
+    background-color: #feedd7;
+}
+
+.contenedor-lista {
+    display: flex;
+    align-items: center;
+}
+
+.imagen-derecha {
+    float: right;
+    margin-left: 10px;
+}
+
+.sabores-lista {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    font-weight: bold;
+    color: #802428;
+    font-size: 20px;
+
+    li {
+        border: 1px solid #ddd;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.sabor-img {
+    width: 250px;
+    height: 300px;
+}
+
+/* FIN SABORES */

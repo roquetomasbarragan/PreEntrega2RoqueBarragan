@@ -1,0 +1,53 @@
+/* Contacto */
+
+.container-contacto {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
+    color: #f6b332;
+}
+
+h2 {
+    text-align: center;
+}
+
+.formulario-heladeria {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 16px;
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: #802428;
+        color: #fff;
+        padding: 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+
+        &:hover {
+            background-color: #f6b332;
+        }
+    }
+}
+
+/* FIN CONTACTO */

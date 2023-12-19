@@ -1,0 +1,32 @@
+/* Media Quaries mobile-tablet */
+@media (min-width:768px) {
+    header {
+        flex-direction: row;
+    }
+
+    header nav ul {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    /* Sabores */
+    .sabor-img {
+        width: 500px;
+        height: 500px;
+    }
+
+    /* fin sabores */
+
+}
+
+/* Media Quaries mobile-tablet-desktop*/
+@media (min-width:1200px) {
+
+    /* Sabores */
+    .sabor-img {
+        width: 800px;
+        height: 800px;
+    }
+
+    /* fin sabores */
+}
